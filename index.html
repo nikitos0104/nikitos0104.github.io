@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инвестиции и финансовые рынки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Инвестиции и финансовые рынки</h1>
+        <p></p>
+        <h2>Котировки ведущих российских компаний</h2>
+    </header>
+
+    <nav>
+        <button class="glow-on-hover" type="button" onclick="window.location.href='about-me.html' ";>Обо мне</button>
+    </nav>
+
+    <section class="stocks">
+        <div class = "stock-graph">
+            <div class="stock-info">
+                <table class = "table-wrap">
+                    <thead>
+                        <tr>
+                            <th class = "stock-data-name">Название</th>
+                            <th class = "stock-data-name">Цена</th>
+                            <th class = "stock-data-name">За день</th>
+                            <th class = "stock-data-name">За год</th>
+                        </tr>
+                        <tr data-stock-name="Газпром">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Gazprom.png" alt="Инвест-лого компании Газпром">
+                                <a class="name">Газпром</a>
+                            </td>
+                            <td data-label-stock="Цена" class="stock-data">133,32 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> -1,32 ₽ (1 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> -33,27 ₽ (19,97 %) </td>
+                        </tr>
+                        <tr data-stock-name="Сбербанк">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Sberbank.png" alt="Инвест-лого компании Сбербанк">
+                                <a class="name">Сбербанк</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 261,78 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> +2,47 ₽(0,95 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> +2,13 ₽(0,82 %) </td>
+                        </tr>
+                        <tr data-stock-name="Магнит">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Magnit.png" alt="Инвест-лого компании Магнит">
+                                <a class="name">Магнит</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 5 087 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> +31 ₽(0,61 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> -374 ₽(6,85 %) </td>
+                        </tr>
+                        <tr data-stock-name="Лукоил">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Lukoil.png" alt="Инвест-лого компании Лукойл">
+                                <a class="name">Лукоил</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 6 842,5 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> +31,5 ₽(0,46 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> +93,5 ₽(1,38 %) </td>
+                        </tr>
+                        <tr data-stock-name="Яндекс">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Yandex.png" alt="Инвест-лого IT-компании Яндекс">
+                                <a class="name">Яндекс</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 3 920 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> +12,5 ₽(0,32 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> +1 533 ₽(64,24 %) </td>
+                        </tr>
+                        <tr data-stock-name="Аэрофлот">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Aeroflot.png" alt="Инвест-лого компании Аэрофлот">
+                                <a class="name">Аэрофлот</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 51,88 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> -0,75 ₽(1,43 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> +10,9 ₽(26,6 %) </td>
+                        </tr>
+                        <tr data-stock-name="Норильский Никель">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/Nornikel.png" alt="Инвест-лого компании Норникель">
+                                <a class="name">Норильский Никель</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 106,68 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> -1,16 ₽(1,08 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> -55 ₽(34,02 %) </td>
+                        </tr>
+                        <tr data-stock-name="Банк ВТБ">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/VTB.png" alt="Инвест-лого компании ВТБ-Банк">
+                                <a class="name">Банк ВТБ</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 86,48 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> +0,32 ₽(0,37 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> -39,47 ₽(31,34 %) </td>
+                        </tr>
+                        <tr data-stock-name="Московская Биржа">
+                            <td data-label="Название" class = "stock-data">
+                                <img class = "pic" src = "pics/MOS-B.png" alt="Инвест-лого ВТБ-Банк">
+                                <a class="name">Московская Биржа</a>
+                            </td>
+                            <td data-label-stock="Цена" class = "stock-data"> 209,01 ₽ </td>
+                            <td data-label-stock="Изменение за день" class = "stock-data"> -3,61 ₽(1.7 %) </td>
+                            <td data-label-stock="Изменение за год" class = "stock-data"> +26,89 ₽(14,76 %) </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>  
+    </section>
+</body>
+
+<footer class="bottom">
+    <p class="bottom-description"> Важно помнить то, что любые инвестиции всегда сопряжены с рисками, так как полностью предсказать исход любой рыночной не может быть осуществлено никем. Все про
+        процессы инвестирования в акции той или иной компании имеют риски потери ваших финансовых средств.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</html>
